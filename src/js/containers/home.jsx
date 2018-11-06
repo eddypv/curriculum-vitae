@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-
+import Header from '../components/header.jsx'
 class Home extends Component{
     render(){
         return (
             <div>
-                Ejemplo de React
-            </div>
+                <Header />
+            </div> 
         )
     }
 }
