@@ -7,6 +7,7 @@ module.exports ={
         filename:'bundle.js',
         publicPath:"http://localhost:8080/dist/" 
     },
+    mode:'development',
     module:{
         rules:[
             {
@@ -30,6 +31,10 @@ module.exports ={
 
                     }
                 }
+            },
+            {
+                test:/\.css$/,
+                use:['style-loader', 'css-loader']
             }
         ]
     }
