@@ -1,6 +1,144 @@
+/*
+    Component Header
+*/
 .header{
     padding: 1em;
     margin: 0;
     background-color: #47BEC9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
 
 }
+[class^="header-section-"]{
+    flex: 1 1 100%;
+}
+.header-section-title{
+    text-align: center;
+}
+.header-title{
+    padding: 0;
+    margin: 13px 0;
+    font-size: 3rem;
+}
+.header-section-photo{
+    text-align: center;
+}
+.header-photo{
+    width:150px;
+    height: auto;
+    max-width: 100%;
+ 
+}
+
+.header-section-name{
+    text-align: center;
+}
+.header-name{
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+}
+.header-profession{
+    font-size: 20px;
+    margin: 0;
+    
+}
+.header-section-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 14px 0;
+}
+.header-section-info > p{
+    margin: 5px 0;
+}
+.header-phone,
+.header-email
+{
+    flex: 1 1 auto;
+    font-size: 18px;
+}
+.header-country,
+.header-contact
+{
+    flex: 1 1 100%;
+    font-size: 18px;
+}
+.header-contact{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*
+    End Component Header
+*/
+/*
+Classs Util
+*/
+
+.primary-color{
+    color: white;
+}
+.second-color{
+    color: #FFFB58;
+}
+@media (min-width: 361px) { 
+    /*
+        Component Header
+    */
+    .header-section-photo,
+    .header-section-name
+    {
+        flex:1 1 33%;
+    }
+    .header-section-name{
+        text-align: left;
+    }
+
+}
+@media (min-width: 576px) 
+{
+    .header-section-photo{
+        text-align: right
+    }
+    .header-section-name{
+        flex:1 1 33%;
+    }
+    .header-section-info{
+        flex:1 1 33%;
+        text-align: left;
+    }
+    .header-section-info > p{
+        flex:1 1 100%;
+    }
+    .header-photo{
+        width: 100%;
+        max-width: 200px;
+    }
+    
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .header-name{
+        font-size:35px;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
