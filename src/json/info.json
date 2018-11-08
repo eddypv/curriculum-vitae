@@ -6,5 +6,87 @@
         "email":"eddypv0@gmail.com",
         "city":"Santa Cruz de la Sierra",
         "country":"Bolivia"
-    }   
+    },
+    "education":[
+        {
+            "institution":"ESCUELA SIMÓN BOLÍVAR",
+            "detail":"Estudios primarios.",
+            "time":{
+                "from":"1995",
+                "to":"2002"
+            }
+        },
+        {
+            "institution":"COLEGIO HÉROES DEL CHACO",
+            "detail":"Estudios secundarios.",
+            "time":{
+                "from":"2003",
+                "to":"2006"
+            }
+        },
+        {
+            "institution":"UNIVERSIDAD AUTÓNOMA GABRIEL RENÉ MORENO U.A.G.R.M.",
+            "detail":"Ingeniería de Sistemas.",
+            "time":{
+                "from":"2007",
+                "to":"2011"
+            }
+        },
+        {
+            "institution":"UNIVERSIDAD AUTÓNOMA GABRIEL RENÉ MORENO U.A.G.R.M.",
+            "detail":"Linux básico.",
+            "time":{
+                "from":"2011",
+                "to":null
+            }
+        },
+        {
+            "institution":"CENTRO BOLIVIANO AMERICANO",
+            "detail":"Ingles intermedio.",
+            "time":{
+                "from":"2013",
+                "to":"2016"
+            }
+        },
+        {
+            "institution":"THE UNIVERSITY OF TEXAS",
+            "detail":"Python programming.",
+            "time":{
+                "from":"2016",
+                "to":null
+            }
+        },
+        {
+            "institution":"PLATZI",
+            "detail":"Curso profesional de Git y GitHub.",
+            "time":{
+                "from":null,
+                "to":"2016"
+            }
+        },
+        {
+            "institution":"PLATZI",
+            "detail":"Curso de React.js",
+            "time":{
+                "from":null,
+                "to":"2017"
+            }
+        },
+        {
+            "institution":"PLATZI",
+            "detail":"Curso basico de C#",
+            "time":{
+                "from":null,
+                "to":"2018"
+            }
+        },
+        {
+            "institution":"PLATZI",
+            "detail":"Curso profesional de C# y ASP.Net.",
+            "time":{
+                "from":null,
+                "to":"2018"
+            }
+        }
+    ]   
 }

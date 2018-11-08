@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 /*
     Component Header
 */
@@ -81,6 +85,53 @@
     End Component Header
 */
 /*
+    Component Body
+*/
+.body{
+    background-color:#44443F;
+    padding: 30px 1em;
+}
+
+.section-title{
+    margin: 0;
+    padding: 0;
+}
+.section-item{
+    display: flex;
+    margin: 30px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-item .section-item-element:nth-child(1){
+    flex: 0 0 17%;
+}
+.section-item .section-item-element:nth-child(2){
+    flex: 0 0 80%;
+}
+
+.section-item-line{
+    width: 100%;
+    background-color:#47BEC9;
+    height: 8px;
+    margin-bottom: 3px;
+}
+.section-item-year{
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+}
+.section-item-institution{
+    margin:0 0 10px 0; 
+    
+}
+.section-item-detail{
+    margin: 0;
+}
+/*
+    End Component Body
+*/
+
+/*
 Classs Util
 */
 
@@ -102,10 +153,27 @@ Classs Util
     .header-section-name{
         text-align: left;
     }
+    /*
+        End Component Header
+    */
+
+    /*
+        Component Section
+    */
+    .section-item-year{
+        text-align: right;
+    }
+    /*
+        End Component Section
+    */
+
 
 }
 @media (min-width: 576px) 
 {
+    /*
+        Component Header
+    */
     .header-section-photo{
         text-align: right
     }
@@ -123,20 +191,41 @@ Classs Util
         width: 100%;
         max-width: 200px;
     }
+    /*
+        End Component Header
+    */
     
 
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
+    /*
+        Component Header
+    */
     .header-name{
         font-size:35px;
     }
+    /*
+        End Component Header
+    */
     
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
+    /*
+        Component Section
+    */
+    .section-item .section-item-element:nth-child(1){
+        flex: 0 0 19%;
+    }
+    .section-item .section-item-element:nth-child(2){
+        flex: 0 0 80%;
+    } 
+    /*
+        End Component Section
+    */
     
 }
 
