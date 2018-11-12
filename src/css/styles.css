@@ -135,6 +135,25 @@ body{
 Classs Util
 */
 
+.progress-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+.progress-bar .circle{
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    width: 20px;
+    height: 20px;
+    flex: 0 0 auto;
+    margin:0 3px;
+}
+.progress-bar .circle.fill{
+    background-color:#FFFB63;
+
+}
 .primary-color{
     color: white;
 }
