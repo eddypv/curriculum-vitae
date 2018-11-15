@@ -233,5 +233,10 @@
         }
 
 
+    ],
+    "integrations":[
+        "Twilio (Envió de SMS).",
+        "Stripe (Pagos en línea con tarjeta de crédito).",
+        "SendGrid(Marketing y correos transacciones)."
     ]   
 }

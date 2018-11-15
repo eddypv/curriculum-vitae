@@ -203,6 +203,16 @@ Classs Util
 .size-subtitle-section{
     font-size: 20px;
 }
+.detail-text{
+    font-size: 16px;
+    margin: 0 5px;
+
+}
+.section-title{
+    margin: 10px 0;
+    font-size: 25px;
+}
+
 @media (min-width: 361px) { 
     /*
         Component Header

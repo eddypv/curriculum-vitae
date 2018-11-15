@@ -12,6 +12,7 @@ class Home extends Component{
                     education={data.education} 
                     skills={data.skills} 
                     experience={data.experience} 
+                    integrations = {data.integrations}
                 />
             </div> 
         )
