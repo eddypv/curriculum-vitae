@@ -6,6 +6,7 @@ function Body(props){
         <div className="body">
             <Section items={props.education} title="Educación" />
             <Skill title="Habilidades"  skills ={props.skills} />
+            <Section items={props.experience} title="Experiencia" />
         </div>    
     )
 }

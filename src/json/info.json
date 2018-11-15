@@ -149,5 +149,89 @@
                 }
             ]
         }
+    ],
+    "experience":[
+        {
+            "institution":"INSTITUTO DE FORMACIÓN TÉCNICA COMPUTACIONAL INFOTEC",
+            "detail":"Auxiliar de docencia.",
+            "time":{
+                "from":"2003",
+                "to":"2006"
+            }
+        },
+        {
+            "institution":"UNIVERSIDAD AUTÓNOMA GABRIEL RENÉ MORENO U.A.G.R.M.",
+            "detail":"Auxiliar de docencia de la materia de Estructura de Datos II.",
+            "time":{
+                "from":"2010",
+                "to":"2010"
+            }
+        },
+        {
+            "institution":"UNIVERSIDAD AUTÓNOMA GABRIEL RENÉ MORENO U.A.G.R.M.",
+            "detail":"Profesor del curso PHP Básico.",
+            "time":{
+                "from":"2010",
+                "to":"2010"
+            }
+        },
+        {
+            "institution":"SCA SISTEMAS",
+            "detail":"Desarrollador Junior.",
+            "time":{
+                "from":"2011",
+                "to":"2011"
+            }
+        },
+        {
+            "institution":"YACIMIENTOS PETROLÍFEROS FISCALES BOLIVIANOS Y.P.F.B.",
+            "detail":"Desarrollador del Sistema de Información Web para el Seguimiento a Resoluciones de Directorio de Subsidiarias de Y.P.F.B 'SIRESDI'.",
+            "time":{
+                "from":"2012",
+                "to":"2012"
+            }
+        },
+        {
+            "institution":"YACIMIENTOS PETROLÍFEROS FISCALES BOLIVIANOS Y.P.F.B.",
+            "detail":"Creador, desarrollador e implementador del Sistema de Información Web para el Seguimiento de las Compras y Gestión de proveedores de Subsidiarias de Y.P.F.B.",
+            "time":{
+                "from":"2012",
+                "to":"2012"
+            }
+        },
+        {
+            "institution":"IPUBLICITY LLC",
+            "detail":"Desarrollador de sitios y sistemas web.",
+            "time":{
+                "from":"2013",
+                "to":"2016"
+            }
+        },
+        {
+            "institution":"TRENDI MARKETING DIGITAL",
+            "detail":"Gerente de sistemas.",
+            "time":{
+                "from":"2016",
+                "to":"2017"
+            }
+        },
+        {
+            "institution":"IGLESIA REMANENTE DE CRISTO",
+            "detail":"Pastor de jóvenes.",
+            "time":{
+                "from":"2016",
+                "to":"2018"
+            }
+        },
+        {
+            "institution":"IPUBLICITY LLC",
+            "detail":"Encargado del proyecto y desarrollador del Sistema Lead para Viva Bolivia, implementación del sistema en la web, API REST y aplicación movil en Android.",
+            "time":{
+                "from":"2018",
+                "to":"2018"
+            }
+        }
+
+
     ]   
 }
