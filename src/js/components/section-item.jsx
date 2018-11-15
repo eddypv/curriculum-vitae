@@ -26,7 +26,7 @@ function SectionItem(props){
                 <p className="section-item-institution primary-color">
                     {props.institution}
                 </p>
-                <p className="section-item-detail primary-color">
+                <p className="section-item-detail primary-color detail-text">
                     {props.detail}
                 </p>
             </div>

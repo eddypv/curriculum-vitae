@@ -3,7 +3,7 @@ import React from 'react'
 function SectionList(props){
     return (
         <div className="section-list" id={props.section_id}>
-            <h2 className="section-list-title section-title second-color">{props.title}</h2>
+            <h2 className="section-list-title size-title-section second-color">{props.title}</h2>
             {
                 props.items.map((item, index)=>{
                     return (
