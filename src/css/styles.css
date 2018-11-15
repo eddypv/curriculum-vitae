@@ -94,11 +94,11 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start
     
 }
-#education{
-    flex: 1 1 auto;
-}
+
 .section-title{
     margin: 0;
     padding: 0;
@@ -140,9 +140,7 @@ body{
 /*
     Component Skills
 */
-#skills{
-    flex: 1 1 auto;
-}
+
 .skills-title{
     margin: 10px 0;
 }
@@ -166,12 +164,43 @@ body{
 */
 
 
+#experience,
+#education,
+#others
+{
+    flex: 1 1 57%;
+    
+}
+#skills,
+#integrations,
+#recognitions{
+    flex: 1 1 40%;
+    
+}
+#education{
+    order: 1;
+}
+#experience{
+    order: 2;
+}
+#skills{
+    order: 3;
+}
+#integrations{
+    order: 4;
+}
+#others{
+    order: 5;
+}
+#recognitions{
+    order: 6;
+}
+
 
 
 /*
 Classs Util
 */
-
 .progress-bar{
     display: flex;
     flex-direction: row;
@@ -238,6 +267,7 @@ Classs Util
     /*
         End Component Section
     */
+    
 
 
 }
@@ -266,6 +296,12 @@ Classs Util
     /*
         End Component Header
     */
+    #experience{
+        order: 3;
+    }
+    #skills{
+        order: 2;
+    }
     
 
 }

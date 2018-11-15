@@ -13,6 +13,8 @@ class Home extends Component{
                     skills={data.skills} 
                     experience={data.experience} 
                     integrations = {data.integrations}
+                    recognitions={data.recognitions}
+                    others={data.others}
                 />
             </div> 
         )

@@ -238,5 +238,26 @@
         "Twilio (Envió de SMS).",
         "Stripe (Pagos en línea con tarjeta de crédito).",
         "SendGrid(Marketing y correos transacciones)."
-    ]   
+    ],
+    "recognitions":[
+        "Certificado de reconocimiento de buen rendimiento de la U.A.G.R.M. en la Facultad de Ciencias Exactas y Tecnología durante la gestión II-2008, I-2009, II-2009."
+    ],
+    "others":[
+        {
+            "institution":"CENTRO TEOLÓGICO ELEM",
+            "detail":"Bachiller en Biblia.",
+            "time":{
+                "from":"2013",
+                "to":"2014"
+            }
+        },
+        {
+            "institution":"UNIVERSIDAD NUESTRO PACTO INTERNACIONAL",
+            "detail":"Licenciatura en Teología.",
+            "time":{
+                "from":"2015",
+                "to":"2016"
+            }
+        }
+    ]
 }
