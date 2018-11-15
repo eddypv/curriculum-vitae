@@ -3,7 +3,7 @@ import SectionItem from './section-item.jsx'
 
 function SectionInfo(props){
     return (
-        <div className="section">
+        <div className="section" id="education">
             <h2 className="section-title second-color">{props.title}</h2>
             <div className="section-body">
                 {

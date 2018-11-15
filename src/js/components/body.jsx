@@ -4,8 +4,8 @@ import Skill from './skills.jsx'
 function Body(props){
     return(
         <div className="body">
-            <Section items={props.education} title="Educación"/>
-            <Skill title="Habilidades"  skills ={props.skills}/>
+            <Section items={props.education} title="Educación" />
+            <Skill title="Habilidades"  skills ={props.skills} />
         </div>    
     )
 }

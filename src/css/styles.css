@@ -89,9 +89,16 @@ body{
 */
 .body{
     background-color:#44443F;
-    padding: 30px 1em;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
-
+#education{
+    flex: 1 1 auto;
+}
 .section-title{
     margin: 0;
     padding: 0;
@@ -130,7 +137,12 @@ body{
 /*
     End Component Body
 */
-
+/*
+    Component Skills
+*/
+#skills{
+    flex: 1 1 auto;
+}
 .skills-title{
     margin: 10px 0;
 }
@@ -149,6 +161,9 @@ body{
 .skills-item-progress{
     flex: 1 1 40%;
 }
+/*
+    End Component Skills
+*/
 
 
 
@@ -273,8 +288,16 @@ Classs Util
     /*
         End Component Section
     */
+    .body{
+        padding: 30px 50px;  
+    }
     
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+    .body{
+        padding: 30px 10%;  
+    } 
+
+}

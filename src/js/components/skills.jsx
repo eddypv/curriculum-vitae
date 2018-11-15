@@ -17,7 +17,7 @@ function SkillsItem(items){
 function Skills(props){
     
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <h2 className="skills-title second-color size-title-section">{props.title}</h2>
             {
                 props.skills.map((value,index)=>{
