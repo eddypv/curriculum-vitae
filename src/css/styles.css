@@ -131,6 +131,28 @@ body{
     End Component Body
 */
 
+.skills-title{
+    margin: 10px 0;
+}
+.skills-section-title{
+    margin: 10px 0;
+}
+.skills-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.skills-item-title{
+    flex: 1 1 60%;
+}
+.skills-item-progress{
+    flex: 1 1 40%;
+}
+
+
+
+
 /*
 Classs Util
 */
@@ -145,8 +167,8 @@ Classs Util
 .progress-bar .circle{
     border-radius: 50%;
     background-color: #D9D9D9;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     flex: 0 0 auto;
     margin:0 3px;
 }
@@ -159,6 +181,12 @@ Classs Util
 }
 .second-color{
     color: #FFFB58;
+}
+.size-title-section{
+    font-size: 25px;
+}
+.size-subtitle-section{
+    font-size: 20px;
 }
 @media (min-width: 361px) { 
     /*

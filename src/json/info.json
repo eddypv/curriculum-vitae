@@ -88,5 +88,66 @@
                 "to":"2018"
             }
         }
+    ],
+    "skills":[
+        {
+            "section":"Lenguajes de programación",
+            "items":[
+                {
+                    "name":"Python",
+                    "skill":6
+                },
+                {
+                    "name":"JavaScript",
+                    "skill":6
+                },
+                {
+                    "name":"PHP",
+                    "skill":5
+                },
+                {
+                    "name":"Java",
+                    "skill":3
+                },
+                {
+                    "name":"C#",
+                    "skill":2
+                }
+            ]
+        },
+        {
+            "section":"Gestores de base de datos",
+            "items":[
+                {
+                    "name":"SQL Server",
+                    "skill":4
+                },
+                {
+                    "name":"MySQL",
+                    "skill":5
+                },
+                {
+                    "name":"PostgreSQL",
+                    "skill":3
+                }
+            ]
+        },
+        {
+            "section":"Frameworks",
+            "items":[
+                {
+                    "name":"CakePHP",
+                    "skill":4
+                },
+                {
+                    "name":"Yii",
+                    "skill":3
+                },
+                {
+                    "name":"Django",
+                    "skill":6
+                }
+            ]
+        }
     ]   
 }

@@ -8,7 +8,7 @@ class Home extends Component{
         return (
             <div>
                 <Header {...data.personal}/>
-                <Body education={data.education} />
+                <Body education={data.education} skills={data.skills} />
             </div> 
         )
     }

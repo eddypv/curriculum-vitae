@@ -5,7 +5,7 @@ function Body(props){
     return(
         <div className="body">
             <Section items={props.education} title="Educación"/>
-            <Skill title="Habilidades" />
+            <Skill title="Habilidades"  skills ={props.skills}/>
         </div>    
     )
 }
