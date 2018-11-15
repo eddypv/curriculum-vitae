@@ -129,6 +129,7 @@ body{
 }
 .section-item-institution{
     margin:0 0 10px 0; 
+    font-weight: bold;
     
 }
 .section-item-detail{

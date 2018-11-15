@@ -1,7 +1,7 @@
 import React from 'react'
 
 function getYear(props){
-    if(props.time.from && props.time.to){
+    if(props.time.from !== props.time.to){
         return `${props.time.from} - ${props.time.to}`
     }else if(props.time.from){
         return props.time.from

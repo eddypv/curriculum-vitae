@@ -37,7 +37,7 @@
             "detail":"Linux básico.",
             "time":{
                 "from":"2011",
-                "to":null
+                "to":"2011"
             }
         },
         {
@@ -53,14 +53,14 @@
             "detail":"Python programming.",
             "time":{
                 "from":"2016",
-                "to":null
+                "to":"2016"
             }
         },
         {
             "institution":"PLATZI",
             "detail":"Curso profesional de Git y GitHub.",
             "time":{
-                "from":null,
+                "from":"2016",
                 "to":"2016"
             }
         },
@@ -68,7 +68,7 @@
             "institution":"PLATZI",
             "detail":"Curso de React.js",
             "time":{
-                "from":null,
+                "from":"2017",
                 "to":"2017"
             }
         },
@@ -76,7 +76,7 @@
             "institution":"PLATZI",
             "detail":"Curso basico de C#",
             "time":{
-                "from":null,
+                "from":"2018",
                 "to":"2018"
             }
         },
@@ -84,7 +84,7 @@
             "institution":"PLATZI",
             "detail":"Curso profesional de C# y ASP.Net.",
             "time":{
-                "from":null,
+                "from":"2018",
                 "to":"2018"
             }
         }
