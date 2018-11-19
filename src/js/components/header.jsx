@@ -16,8 +16,8 @@ function Header(props){
             </div>
             <div className="header-section-info">
                 <p className="header-contact second-color">Contacto</p>
-                <p className="header-phone primary-color">{props.phone}</p>
-                <p className="header-email primary-color">{props.email}</p>
+                <a href={`tel:${props.code_country_phone}${ props.phone }`}className="header-phone primary-color">{props.phone}</a>
+                <a href={`mailto:${props.email}`}className="header-email primary-color">{props.email}</a>
                 <p className="header-country primary-color">{props.city} - {props.country}</p>
             </div>
         </header>

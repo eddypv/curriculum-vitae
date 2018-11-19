@@ -61,7 +61,7 @@ body{
     text-align: center;
     margin: 14px 0;
 }
-.header-section-info > p{
+.header-section-info > *{ 
     margin: 5px 0;
 }
 .header-phone,
@@ -69,6 +69,13 @@ body{
 {
     flex: 1 1 auto;
     font-size: 18px;
+    text-decoration: none;
+    
+}
+.header-phone:hover,
+.header-email:hover{
+    text-decoration: underline;
+    font-weight: bold;
 }
 .header-country,
 .header-contact
@@ -287,7 +294,7 @@ Classs Util
         flex:1 1 33%;
         text-align: left;
     }
-    .header-section-info > p{
+    .header-section-info > *{
         flex:1 1 100%;
     }
     .header-photo{
