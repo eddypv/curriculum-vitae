@@ -6,7 +6,7 @@ const CleanWebPackPlugin = require('clean-webpack-plugin');
 const webpack = require('webpack')
 const plugins =[
     new miniCssExtractPlugin({
-        filename: "./css/[name].css",
+        filename: "./css/[name].[hash].css",
         chunkFilename: "[id].css"
     }),
     new webpack.DllReferencePlugin({
@@ -26,7 +26,7 @@ module.exports =(env)=>{
         },
         output:{
             path:path.resolve(__dirname, "dist"),
-            filename :'js/[name].js',
+            filename :'js/[name].[hash].js',
             publicPath:"https://eddypv.github.io/dist/", 
             chunkFilename:'js/[id].js'
 
