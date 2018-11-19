@@ -1,7 +1,7 @@
 {
     "personal":{
         "name":"Eddy Perez Velasquez",
-        "profession":"Ingeniero de Sistemas",
+        "profession":"Senior Web Developer",
         "phone":"77032144",
         "email":"eddypv0@gmail.com",
         "city":"Santa Cruz de la Sierra",
@@ -230,6 +230,15 @@
                 "from":"2018",
                 "to":"2018"
             }
+        },
+        {
+            "institution":"Copley Dental Associates",
+            "detail":"Encargado de mejorar el SEO, rendimiento del sitio web (https://copleydental.com/) y restructuración del back-end.",
+            "time":{
+                "from":"2018",
+                "to":"2018"
+            }
+
         }
 
 

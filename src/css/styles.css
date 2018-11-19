@@ -130,6 +130,7 @@ body{
 .section-item-institution{
     margin:0 0 10px 0; 
     font-weight: bold;
+    text-transform: uppercase;
     
 }
 .section-item-detail{
@@ -312,7 +313,10 @@ Classs Util
         Component Header
     */
     .header-name{
-        font-size:35px;
+        font-size:43px;
+    }
+    .header-profession{
+        font-size: 35px;
     }
     /*
         End Component Header
