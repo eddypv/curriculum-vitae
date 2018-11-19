@@ -4,9 +4,7 @@ import photo from '../../images/photo.png'
 function Header(props){
     return (
         <header className="header">
-            <div className="header-section-title">
-                <h1 className="header-title primary-color">Hoja de Vida</h1>
-            </div>
+            
             <div className="header-section-photo">
                 <img src={photo} alt={props.name} title={props.name} className="header-photo"/> 
             </div>

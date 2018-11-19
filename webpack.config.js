@@ -27,7 +27,7 @@ module.exports =(env)=>{
         output:{
             path:path.resolve(__dirname, "dist"),
             filename :'js/[name].js',
-            publicPath:"https://eddypv.github.io/", 
+            publicPath:"https://eddypv.github.io/dist/", 
             chunkFilename:'js/[id].js'
 
         },
